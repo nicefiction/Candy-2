@@ -13,6 +13,10 @@
 		0913A1C426B870350022AB57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0913A1C326B870350022AB57 /* Preview Assets.xcassets */; };
 		0913A1C626B870350022AB57 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913A1C526B870350022AB57 /* Persistence.swift */; };
 		0913A1C926B870350022AB57 /* Candy_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0913A1C726B870350022AB57 /* Candy_2.xcdatamodeld */; };
+		098F061F26B872FC003C0CE9 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098F061B26B872FC003C0CE9 /* Country+CoreDataClass.swift */; };
+		098F062026B872FC003C0CE9 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098F061C26B872FC003C0CE9 /* Country+CoreDataProperties.swift */; };
+		098F062126B872FC003C0CE9 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098F061D26B872FC003C0CE9 /* Candy+CoreDataClass.swift */; };
+		098F062226B872FC003C0CE9 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098F061E26B872FC003C0CE9 /* Candy+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0913A1C526B870350022AB57 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0913A1C826B870350022AB57 /* Candy_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Candy_2.xcdatamodel; sourceTree = "<group>"; };
 		0913A1CA26B870350022AB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098F061B26B872FC003C0CE9 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		098F061C26B872FC003C0CE9 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		098F061D26B872FC003C0CE9 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		098F061E26B872FC003C0CE9 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				0913A1BC26B870310022AB57 /* Candy_2App.swift */,
-				0913A1BE26B870310022AB57 /* ContentView.swift */,
+				0913A1D126B870AB0022AB57 /* View */,
 				0913A1C026B870350022AB57 /* Assets.xcassets */,
-				0913A1C526B870350022AB57 /* Persistence.swift */,
+				0913A1D326B870B60022AB57 /* Model */,
 				0913A1CA26B870350022AB57 /* Info.plist */,
-				0913A1C726B870350022AB57 /* Candy_2.xcdatamodeld */,
 				0913A1C226B870350022AB57 /* Preview Content */,
 			);
 			path = "Candy 2";
@@ -73,6 +80,27 @@
 				0913A1C326B870350022AB57 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0913A1D126B870AB0022AB57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0913A1BE26B870310022AB57 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0913A1D326B870B60022AB57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				098F061B26B872FC003C0CE9 /* Country+CoreDataClass.swift */,
+				098F061C26B872FC003C0CE9 /* Country+CoreDataProperties.swift */,
+				098F061D26B872FC003C0CE9 /* Candy+CoreDataClass.swift */,
+				098F061E26B872FC003C0CE9 /* Candy+CoreDataProperties.swift */,
+				0913A1C726B870350022AB57 /* Candy_2.xcdatamodeld */,
+				0913A1C526B870350022AB57 /* Persistence.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +174,12 @@
 			files = (
 				0913A1C926B870350022AB57 /* Candy_2.xcdatamodeld in Sources */,
 				0913A1C626B870350022AB57 /* Persistence.swift in Sources */,
+				098F062026B872FC003C0CE9 /* Country+CoreDataProperties.swift in Sources */,
+				098F062226B872FC003C0CE9 /* Candy+CoreDataProperties.swift in Sources */,
 				0913A1BF26B870310022AB57 /* ContentView.swift in Sources */,
+				098F061F26B872FC003C0CE9 /* Country+CoreDataClass.swift in Sources */,
 				0913A1BD26B870310022AB57 /* Candy_2App.swift in Sources */,
+				098F062126B872FC003C0CE9 /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
